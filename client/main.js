@@ -1,8 +1,8 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import todosList from '../imports/components/todosList/todosList';
+import notebookJudging from '../imports/components/notebookJudging/notebookJudging';
 
-angular.module('simple-todos', [
+angular.module('best-notebook-judging', [
   angularMeteor,
-  todosList.name
+  notebookJudging.name
 ]);
