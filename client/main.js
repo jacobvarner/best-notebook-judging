@@ -1,8 +1,8 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import notebookJudging from '../imports/components/notebookJudging/notebookJudging';
+import '../imports/startup/accounts-config.js';
 
 angular.module('best-notebook-judging', [
   angularMeteor,
-  notebookJudging.name
+  'accounts.ui'
 ]);
